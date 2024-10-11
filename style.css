@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    
+}
+
+div{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+
+    /*animation-name: hamada;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease;*/ /*تبدأ بسرعة وتنتهي بأبطأ*/
+    
+    animation: hamada 2s 2s infinite alternate ease;
+}
+@keyframes hamada{
+    from{
+        background-color: aqua;
+        width: 0;
+    }
+    to{
+        background-color: aliceblue;
+        width: 100%;
+    }
+}
+h1{
+    text-align: center;
+}
+/*cursor pointer  شكل اليد على الصفخة/* 
